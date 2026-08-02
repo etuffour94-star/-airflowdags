@@ -1,0 +1,36 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Airflow logs and temp files
+logs/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+secrets/
+
+
+# DAG test outputs
+dags/__pycache__/
+dags/*.pyc
+
+# Version control
+.git
+.gitignore
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Docker files themselves (not needed inside image)
+Dockerfile
+docker-compose.yml
+
+# Local development artifacts
+*.sqlite
+*.db
+*.swp
